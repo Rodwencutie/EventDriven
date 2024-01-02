@@ -1,0 +1,122 @@
+/*
+.loginBody {
+  position: fixed;
+  height: 100vh;
+}
+
+.form {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(47, 227, 243, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 20px;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 1px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+
+}
+*/
+.loginBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #eed4ad, #c0997a);
+  overflow: hidden;
+}
+
+.form {
+  /* Your form styles */
+  text-align: left;
+  width: 300px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(245, 202, 253, 0.1);
+  box-shadow: 0 0 40px rgba(201, 194, 252, 0.6);
+}
+
+.label {
+  /* Your label styles */
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.input {
+  /* Your input styles */
+  width: 100%; /* Make the input fill the container */
+  padding: 8px; /* Add some padding for better appearance */
+  margin-bottom: 16px; /* Add some spacing between inputs */
+}
+
+.error {
+  /* Your error message styles */
+  color: red;
+  margin-top: 4px; /* Add some spacing above the error message */
+}
+
+.shape {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+
+
+.background .shape.background {
+  top: 30%;
+  left: 10%;
+}
+
+.background .shape.button {
+  top: 70%;
+  left: 80%;
+}
+
+.button {
+  /* Your button styles */
+  background-color: #f1d0fb;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-image 0.25s;
+}
+
+.button:hover {
+  background-image: linear-gradient(45deg, #b47f30, #b38a6a);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.307);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}

@@ -1,0 +1,112 @@
+/* settings.css */
+
+/* Container styles */
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Food and Price input styles */
+  .food-price-container {
+    margin-bottom: 20px;
+}
+  
+  .food-price-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .food-price-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  /* Button styles */
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-container button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #f1d0fb;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-image 0.25s;
+  }
+  
+  .update-button {
+    background-color: #f1d0fb;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-image 0.25s;
+  }
+  
+  .delete-button {
+    background-color: #f1d0fb;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-image 0.25s;
+  }
+
+  
+.delete-button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+
+.update-button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+
+.save-button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+  
+  /* Table styles */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #030202;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  

@@ -1,0 +1,35 @@
+nav {
+    background-color: #ffe0b789;
+    padding: 0px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  button {
+    display:block;
+    color: hwb(0 0% 100%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+  }
+  button:hover {
+      background-image: linear-gradient(45deg, #93b430, #8bb36a);
+      box-shadow: 1px 1px 10px #ffffff70;
+      transition: box-shadow 0.25s;
+      color: white;
+      outline: none;
+  }
